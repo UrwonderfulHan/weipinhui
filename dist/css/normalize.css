@@ -1,0 +1,39 @@
+/*css初始化*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*版心*/
+.w {
+    width: 1170px;
+    margin: 0 auto;
+}
+/*清除浮动*/
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+button,
+input {
+    border: 0;
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+/*字体图标*/
+
+
+i {
+    display: inline-block;
+    font-style: normal;
+    font-family: "icomoon";
+}

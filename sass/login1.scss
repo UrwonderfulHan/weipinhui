@@ -1,0 +1,81 @@
+    *{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#top {
+    height: 100px;
+}
+
+.logo {
+    width: 1000px;
+    height: 100px;
+    margin-left: 140px;
+}
+
+.logo1 {
+    margin-top: 25px;
+    float: left;
+}
+
+.logo2 {
+    margin-top: 36px;
+    float: right;
+}
+
+.bg {
+    background-position-x: -300px;
+    height: 650px;
+    background-image: url(../img/login-bg.jpg);
+}
+
+.box {
+    width: 1000px;
+    height: 500px;
+    margin-left: 140px;
+}
+
+.box2 {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    float: right;
+    background: #FFFFFF;
+    
+}
+
+.box-top {
+    height: 50px;
+    width: 400px;
+    border-bottom: aliceblue 1px solid;
+   
+    }
+ .box-top li {
+        float: left;
+        text-align: center;
+        line-height: 50px;
+}
+.box-top li a {
+    font-size: 20px;
+        padding: 0 55px;   
+}
+.alist{
+        border-right:aliceblue 1px solid ;      
+}
+
+.weixin{
+    
+}
+ .footer{
+     height: 100px;
+     text-align: center;
+     line-height: 100px;
+ }
